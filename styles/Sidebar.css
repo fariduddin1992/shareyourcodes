@@ -1,0 +1,63 @@
+.nopadding {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+.sidebar h1 {
+  color: #fff;
+  font-family: 'LP Bambus W00', cursive;
+  font-size: 2em;
+  font-weight: 300;
+  letter-spacing: 2px;
+  text-align: left;
+  text-shadow: 0 0 10px #1d2a36;
+  word-spacing: 5px;
+}
+.sidebar {
+  background: #273747;
+  position: fixed;
+  height: 100%;
+  transition: all 0.2s ease-in;
+}
+#main-nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+#main-nav ul li {
+  padding-bottom: 20px;
+  margin-left: 0px;
+  display: block;
+}
+#main-nav > ul li {
+  position: relative;
+}
+#main-nav > ul > li {
+  margin-left: 50px;
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  zoom: 1;
+  *display: inline;
+}
+
+#sidebar #main-nav ul li a {
+  font-size: 17px;
+  padding: 0px 0px;
+}
+#main-nav ul li a:hover {
+  color: #6dbcdb;
+}
+#main-nav ul li a {
+  text-decoration: none;
+}
+.socialIcon a {
+  margin-right: 15px;
+  cursor: pointer;
+}
+.socialIcon img:hover {
+  background-color: #ccc;
+  padding: 20;
+  border-radius: 20;
+  opacity: 0.6;
+}
