@@ -5,7 +5,7 @@ import Head from 'next/head'
 export default function Sidebar() {
   return (
     <div className="sidebar">
-    <h1>Mosh Hamedani</h1>
+    <h1>Farid uddin</h1>
     <p>Coding Made Simple</p>
     <nav id="main-nav">
         <ul class="main-navigation list-group">
